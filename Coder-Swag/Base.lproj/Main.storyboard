@@ -59,8 +59,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="categoryImage" destination="PXU-6A-LTY" id="tWJ-Xo-MZA"/>
-                                            <outlet property="categoryTitle" destination="P6b-5t-509" id="fI8-uC-BaE"/>
+                                            <outlet property="categoryImage" destination="PXU-6A-LTY" id="wli-Ra-9Hq"/>
+                                            <outlet property="categoryTitle" destination="P6b-5t-509" id="afL-OW-wZK"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
