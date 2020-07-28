@@ -16,6 +16,8 @@
 		CC2DAC1524C4339D00436B70 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2DAC1424C4339D00436B70 /* CategoryCell.swift */; };
 		CC3B3F3F24C66F9B0006B222 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3B3F3E24C66F9B0006B222 /* Category.swift */; };
 		CC3B3F4224C6741D0006B222 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3B3F4124C6741D0006B222 /* DataService.swift */; };
+		CC3D475424CD760600E03524 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D475324CD760600E03524 /* Product.swift */; };
+		CC3D475624CD818500E03524 /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D475524CD818500E03524 /* ProductVC.swift */; };
 		CCD9A99524C9C79D00DE2EAC /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD9A99424C9C79D00DE2EAC /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		CC2DAC1424C4339D00436B70 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		CC3B3F3E24C66F9B0006B222 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		CC3B3F4124C6741D0006B222 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		CC3D475324CD760600E03524 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CC3D475524CD818500E03524 /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
 		CCD9A99424C9C79D00DE2EAC /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				CC2DAC0024C41ACB00436B70 /* CategoriesVC.swift */,
+				CC3D475524CD818500E03524 /* ProductVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				CC3B3F3E24C66F9B0006B222 /* Category.swift */,
+				CC3D475324CD760600E03524 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,10 +189,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC2DAC0124C41ACB00436B70 /* CategoriesVC.swift in Sources */,
+				CC3D475424CD760600E03524 /* Product.swift in Sources */,
 				CC3B3F3F24C66F9B0006B222 /* Category.swift in Sources */,
 				CC2DABFD24C41ACB00436B70 /* AppDelegate.swift in Sources */,
 				CC3B3F4224C6741D0006B222 /* DataService.swift in Sources */,
 				CC2DABFF24C41ACB00436B70 /* SceneDelegate.swift in Sources */,
+				CC3D475624CD818500E03524 /* ProductVC.swift in Sources */,
 				CCD9A99524C9C79D00DE2EAC /* ProductCell.swift in Sources */,
 				CC2DAC1524C4339D00436B70 /* CategoryCell.swift in Sources */,
 			);
